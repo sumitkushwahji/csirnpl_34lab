@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the login container height to match the viewport height */
+  width: 100%; /* Ensure the login container takes the full width of the viewport */
+  padding-top: 64px; /* Add padding to account for the fixed navbar */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+mat-card {
+  max-width: 300px;
+  padding: 20px;
+}
